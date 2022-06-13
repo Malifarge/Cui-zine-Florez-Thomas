@@ -91,4 +91,8 @@ header{
     header a:hover{
         color: white;
     }
+
+    .headerbas img{
+        width: 10%;
+    }
 }
