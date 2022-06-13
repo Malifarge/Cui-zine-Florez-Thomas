@@ -69,9 +69,11 @@ header{
 /* media query */
 
 @media (min-width: 768px){
-    header nav{
-        display: block;
-        font-family: 'Oswald', sans-serif;
+
+    /* général */
+
+    .flex2{
+        display: flex;
     }
 
     .grand{
@@ -80,6 +82,13 @@ header{
 
     .petit{
         display: none;
+    }
+
+    /* header */
+
+    header nav{
+        display: block;
+        font-family: 'Oswald', sans-serif;
     }
 
     header a{
