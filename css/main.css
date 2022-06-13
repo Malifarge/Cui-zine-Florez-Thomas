@@ -6,3 +6,89 @@
 /* font-family: 'Courgette', cursive;
 
 font-family: 'Oswald', sans-serif; */
+
+/* généralité */
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header */
+
+header{
+    font-family: 'Courgette', cursive;
+    width: 100%;
+    color:white;
+}
+
+.burger{
+    width: 7%;
+    border: 1px solid white;
+    padding: 3px 6px;
+    border-radius: 3px;
+    filter: brightness(60%);
+}
+
+.headerhaut{
+    font-size: 30px;
+    padding: 20px 15px;
+    border-bottom: 3px solid rgba(255,255,255,0.3);
+}
+
+.headerbas{
+    text-align: center;
+    padding: 50px;
+    font-size: 60px;
+}
+
+.headerbas h2{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.headerbas img{
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.grand{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+/* media query */
+
+@media (min-width: 768px){
+    header nav{
+        display: block;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .grand{
+        display:block;
+    }
+
+    .petit{
+        display: none;
+    }
+
+    header a{
+        text-decoration: none;
+        color: rgba(255,255,255,0.3);
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    header a:hover{
+        color: white;
+    }
+}
