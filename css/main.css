@@ -15,6 +15,25 @@ font-family: 'Oswald', sans-serif; */
     align-items: center;
 }
 
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 50px;
+}
+
+h3{
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+h4{
+    font-family: 'Courgette', cursive;
+    font-size: 15px;
+    margin: 10px 0;
+}
+
 /* header */
 
 header{
@@ -58,19 +77,71 @@ header{
     display: none;
 }
 
+/* Footer */
 
+footer{
+    background: black;
+    color: white;
+    padding: 40px 30px;
+}
 
+footer nav{
+    display: flex;
+    flex-direction: column;
+}
 
+footer a{
+    color: white;
+    font-size: 15px;
+}
 
+footer h3{
+    margin-top: 0;
+}
+footer input{
+    height: 30px;
+}
 
+footer button{
+    height: 35px;
+    background: black;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
 
+footer img{
+    width: 5%;
+    padding: 10px;
+    background: white;
+    border-radius: 2px;
+}
 
-
+.logos{
+    justify-content: start;
+    gap: 5px;
+}
 /* media query */
 
-@media (min-width: 768px){
+/* tablette */
+
+@media(min-width: 768px){
+    .flex3{
+        display: flex;
+    }
+}
+
+/* PC */
+
+@media (min-width: 992px){
 
     /* général */
+
+    main{
+        padding: 60px;
+    }
 
     .flex2{
         display: flex;
@@ -104,5 +175,17 @@ header{
 
     .headerbas img{
         width: 10%;
+    }
+
+    /* footer */
+
+    footer{
+    padding: 40px 100px;
+    justify-content: space-between;
+    height: 300px;
+    }
+
+    footer section{
+        width: 50%;
     }
 }
