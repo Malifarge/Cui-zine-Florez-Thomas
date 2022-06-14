@@ -5,3 +5,14 @@ header{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/* main */
+
+main{
+    margin: 20px 10px;
+}
+
+ main p{
+    margin: 20px 0;
+ }
+
