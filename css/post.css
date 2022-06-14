@@ -14,3 +14,15 @@ h1{
     background: rgba(0,0,0,0.5);
 }
 
+/* intro */
+
+.Intro{
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.L{
+    font-size: 70px;
+    color: gray;
+    font-family: 'Oswald', sans-serif;
+}
