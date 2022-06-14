@@ -12,6 +12,11 @@ main{
     margin: 15px;
 }
 
+main a{
+    color: black;
+    text-decoration: none;
+}
+
 main img{
     width: 100%;
 }
