@@ -16,3 +16,17 @@ main{
     margin: 20px 0;
  }
 
+ /* PC */
+
+@media (min-width: 992px){
+
+
+    .address{
+        margin-left: 50px;
+    }
+
+    aside{
+        margin-top: 150px;
+    }
+
+}

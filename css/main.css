@@ -177,6 +177,12 @@ footer img{
         width: 10%;
     }
 
+    /* main */
+
+    main{
+        width: 70%;
+    }
+
     /* aside */
 
     aside{
@@ -198,7 +204,7 @@ footer img{
     }
 
     .Alogos{
-        justify-content: start;
+        width: 200px;
         gap: 40px;
     }
 
