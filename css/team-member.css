@@ -5,3 +5,35 @@ header{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/* main */
+
+main{
+    margin: 30px 30px 40px;
+}
+
+main img{
+    border-radius: 50%;
+    width: 40%;
+    float: left;
+    margin: 10px;
+}
+
+/* PC */
+
+@media (min-width: 992px){
+
+    .tout{
+        margin: 20px 40px 40px 100px;
+    }
+
+    main{
+        margin: 0;
+        padding: 0 50px 0 0;
+    }
+
+    aside {
+        margin: 0;
+    }
+
+}
