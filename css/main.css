@@ -177,6 +177,35 @@ footer img{
         width: 10%;
     }
 
+    /* aside */
+
+    aside input{
+        width: 200px;
+        height: 30px;
+    }
+
+    aside button{
+        width: 200px;
+        height: 30px;
+        border: 2px solid black;
+        background: white;
+        border-radius: 3px;
+        font-weight: bold;
+    }
+
+    .Alogos{
+        justify-content: start;
+        gap: 40px;
+    }
+
+    .mail{
+        width: 193px;
+    }
+
+    aside img {
+        width: 10%;
+    }
+
     /* footer */
 
     footer{
