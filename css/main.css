@@ -179,6 +179,10 @@ footer img{
 
     /* aside */
 
+    aside{
+        margin-right: 50px;
+    }
+
     aside input{
         width: 200px;
         height: 30px;

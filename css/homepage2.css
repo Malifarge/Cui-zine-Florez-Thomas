@@ -1,0 +1,60 @@
+/* header */
+
+header{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* page */
+
+main {
+    margin: 15px;
+}
+
+main img{
+    width: 100%;
+}
+
+.suiv{
+    display: block;
+    margin: 30px 0 40px;
+    color: black;
+    text-decoration: none;
+    text-align: end;
+}
+
+.suiv::after{
+content: "»";
+}
+
+main a{
+    color: black;
+    text-decoration: none;
+}
+
+/* tablette */
+
+@media(min-width: 768px){
+    article div{
+        width: 150%;
+    }
+
+    .imgpaella{
+        margin-right: 20px;
+    }
+
+}
+
+/* PC */
+
+@media (min-width: 992px){
+
+    .imgpaella{
+        width: 60%;
+    }
+
+    aside{
+        width: 30%;
+    }
+}
