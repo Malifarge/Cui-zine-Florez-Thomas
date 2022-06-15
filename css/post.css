@@ -89,6 +89,10 @@ main textarea{
 
 @media (min-width: 992px){
 
+    main{
+        padding-top: 0;
+    }
+
     .propos{
         justify-content: center;
     }
@@ -107,5 +111,9 @@ main textarea{
     
     main textarea{
         width: 50%;
+    }
+
+    .lescommentaires{
+            margin-left: 50px;
     }
 }
