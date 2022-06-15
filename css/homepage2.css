@@ -36,6 +36,15 @@ main a{
 /* tablette */
 
 @media(min-width: 768px){
+
+    main{
+        height: 40vh;
+    }
+
+    .imgpaella{
+        width: 60%;
+    }
+
     article div{
         width: 150%;
     }
@@ -44,14 +53,18 @@ main a{
         margin-right: 20px;
     }
 
+    .suiv{
+        margin-top: 100px;
+    }
+
 }
 
 /* PC */
 
 @media (min-width: 992px){
 
-    .imgpaella{
-        width: 60%;
+    main{
+        padding: 0 60px;
     }
 
 }
