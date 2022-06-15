@@ -47,8 +47,9 @@ main{
 }
 
 .propos img{
-    width: 50%;
+    width: 200px;
     border-radius: 50%;
+    margin-right: 30px;
 }
 
 /* faire commentaire */
@@ -77,4 +78,29 @@ main textarea{
 
 .repcomment img{
     opacity: 50%;
+}
+
+/* PC */
+
+@media (min-width: 992px){
+
+    .propos{
+        justify-content: center;
+    }
+
+    .antoinepropos{
+        width: 50%;
+    }
+
+    .Commentcreat{
+        text-align: center;
+    }
+
+    main input{
+        width: 50%;
+    }
+    
+    main textarea{
+        width: 50%;
+    }
 }
